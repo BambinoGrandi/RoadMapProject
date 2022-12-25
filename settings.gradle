@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "RoadMapProject"
-include ':app'
-include ':feature_profile'
-include ':ui'
+include(":app")
+include(":feature_profile")
+include(":ui")
