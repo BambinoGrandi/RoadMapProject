@@ -1,0 +1,12 @@
+[versions]
+dagger = "2.44.2"
+compose = "1.3.2"
+
+[libraries]
+dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
+daggerKapt = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose"}
+compose-ui-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+
+[bundles]
+compose = ["compose-ui", "compose-ui-preview"]
